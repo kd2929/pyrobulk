@@ -1,5 +1,5 @@
 {
-  "name": "BulkLoader",
+  "name": "pyrobulk",
   "description": "Telegram Bot to Download list of urls and Upload to Telegram.",
   "keywords": [
     "telegram",
@@ -7,10 +7,10 @@
     "bulk",
     "downloader"
   ],
-  "success_url": "https://github.com/X-Gorn/BulkLoader",
-  "website": "https://github.com/X-Gorn",
-  "repository": "https://github.com/X-Gorn/BulkLoader",
-  "env": {
+  "success_url": "https://github.com/kd2929/pyrobulk",
+  "website": "https://github.com/kd2929",
+  "repository": "https://github.com/kd2929/pyrobulk",
+  "env": 
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
       "value": ""
@@ -42,11 +42,11 @@
   "buildpacks": [{
     "url": "heroku/python"
   }],
-  "stack": "heroku-20",
+  "stack": "heroku-22",
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
